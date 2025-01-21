@@ -13,10 +13,9 @@ class OpenReviewProcessor:
                 "content.abstract.value",
                 "content.primary_area.value",
                 "content.keywords.value",
-                "content.TLDR.value",
             ]
         ]
-        filtered_df.columns = ["id", "title", "abstract", "primary_area", "keywords", "tldr"]
+        filtered_df.columns = ["id", "title", "abstract", "primary_area", "keywords"]
         return filtered_df
 
     @staticmethod
